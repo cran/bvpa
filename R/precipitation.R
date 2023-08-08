@@ -1,0 +1,23 @@
+#' Precipitation data
+#'
+#' The dataset contains daily accumulated precipitation data (in mm) from Abisko
+#' Scientific Research Station in northern Sweden for 100 years, from 1st January
+#' 1913 to 31st December 2012.
+#'
+#' @docType data
+#'
+#' @usage data(precipitation)
+#'
+#' @format A data frame with 36524 rows and 2 columns and the following variables:
+#' \describe{
+#'   \item{Time}{1st column represents Day.}
+#'   \item{Precipitation..mm.}{2nd column represents daily accumulated precipitation (in mm)
+#'    of the day.}
+#' }
+#'
+#'
+#' @source <https://www.polar.se/stoed-till-polarforskning/abisko-naturvetenskapliga-station/>
+#'
+#' @examples
+#' data(precipitation)
+"precipitation"
